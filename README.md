@@ -15,5 +15,5 @@ Projects: Highlight of some of the key projects I have worked on.
 Education: Academic qualifications and certifications.
 Contact: Links to my social profiles and contact details.
 **👨‍💻 Demo**
-Live Demo (Add the link to your GitHub Pages or hosted resume here)
+[Live Demo](https://anas-cv-chi.vercel.app/)
 

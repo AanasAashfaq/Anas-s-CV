@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Favorite Personalities</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom CSS -->
+    <link href="styles.css" rel="stylesheet">
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <style>
+        body {
+            background-color: #f4f4f4;
+            font-family: 'Poppins', sans-serif;
+            color: #333;
+        }
+
+        .personality-card {
+            background: #fff;
+            border-radius: 8px;
+            box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+            overflow: hidden;
+            margin: 20px 0;
+            transition: transform 0.3s ease;
+        }
+
+        .personality-card:hover {
+            transform: translateY(-10px);
+        }
+
+        .personality-img {
+            width: 100%;
+            height: 300px;
+            object-fit: cover;
+        }
+
+        .personality-content {
+            padding: 20px;
+        }
+
+        .personality-content h3 {
+            margin-bottom: 10px;
+            color: #333;
+        }
+
+        .personality-content p {
+            font-size: 16px;
+            line-height: 1.6;
+        }
+    </style>
+</head>
+
+<body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+        <div class="container">
+            <a class="navbar-brand" href="#">Anas's Portfolio</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#">Favorite Personalities</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="favorite-cities.html">Favorite Cities</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="favorite-tourist-spots.html">Favorite Tourist Spots</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="contact.html">Contact</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Main Content -->
+    <section class="container mt-5 pt-5">
+        <h1 class="text-center mb-4">My Favorite Personalities</h1>
+        <div class="row">
+            <!-- Muhammad Ali -->
+            <div class="col-md-4">
+                <div class="personality-card">
+                    <img src="./images/download.jpg" alt="Muhammad Ali" class="personality-img">
+                    <div class="personality-content">
+                        <h3>Muhammad Ali</h3>
+                        <p>Muhammad Ali, 'The Greatest', was a legendary boxer and philanthropist. Known for his
+                            lightning-fast punches and unmatched confidence, Ali revolutionized the world of sports and
+                            fought for racial equality.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- PewDiePie -->
+            <div class="col-md-4">
+                <div class="personality-card">
+                    <img src="./images/Felix Kjellberg ♡.jpg" alt="PewDiePie" class="personality-img">
+                    <div class="personality-content">
+                        <h3>PewDiePie</h3>
+                        <p>PewDiePie, the king of YouTube, is a content creator known for his humor and innovative
+                            videos. With millions of fans worldwide, he has become a symbol of creativity and online
+                            entertainment.</p>
+                    </div>
+                </div>
+            </div>
+            <!-- David Goggins -->
+            <div class="col-md-4">
+                <div class="personality-card">
+                    <img src="./images/David Goggins_ Deep in Thought at the Gym.jpg" alt="David Goggins" class="personality-img">
+                    <div class="personality-content">
+                        <h3>David Goggins</h3>
+                        <p>David Goggins, a former US Navy SEAL, is a motivational speaker and endurance athlete. His
+                            story of overcoming adversity and pushing mental and physical limits inspires millions to
+                            achieve greatness.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-dark text-white text-center py-3 mt-5">
+        <p>&copy; 2024 Muhammad Anas. All rights reserved.</p>
+    </footer>
+
+    <!-- Bootstrap JS -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
